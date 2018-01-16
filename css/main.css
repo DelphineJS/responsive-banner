@@ -39,13 +39,16 @@ html {
     position: relative;
   }
 
-  .content {
+  .content-wrap {
     position: absolute;
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
-    background-color: rgba(73, 85, 98, .0);
-    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, .0));
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
+  }
+
+  .content {
+    background-color: rgba(73, 85, 98, 0);
   }
 
   .text {
@@ -58,6 +61,7 @@ html {
 
   .btn {
     margin-bottom: .5em;
+    border-color: #efefef;
   }
 
 }
