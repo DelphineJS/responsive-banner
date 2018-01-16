@@ -1,5 +1,5 @@
 html {
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
 }
 
 .content {
@@ -10,4 +10,8 @@ html {
 .btn {
   color: #fff;
   border-color: #97a49b;
+}
+
+.img {
+  max-height: 500px;
 }
